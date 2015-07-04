@@ -1,0 +1,14 @@
+default:
+  suites:
+    default:
+      paths: [%paths.base%/../features]
+      contexts:
+        - Behat\MinkExtension\Context\MinkContext
+        - Werkspot\LightningTalk\AcceptanceTests\Bootstrap\FeatureContext
+
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://helloworld/
+      sessions:
+        default:
+          goutte: ~

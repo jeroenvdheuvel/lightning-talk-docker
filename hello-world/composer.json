@@ -1,0 +1,21 @@
+{
+    "name": "jeroen/lightning-talk-docker",
+    "description": "Lightning talk about Docker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen van den Heuvel",
+            "email": "jeroen.van.den.heuvel@werkspot.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Werkspot\\LightningTalk\\": "src/"
+        }
+    }
+}

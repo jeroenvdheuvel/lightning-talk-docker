@@ -1,0 +1,24 @@
+{
+    "name": "jeroen/lightning-talk-docker-acceptance-tests",
+    "description": "Acceptance tests for lightning talk about Docker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen van den Heuvel",
+            "email": "jeroen.van.den.heuvel@werkspot.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+      "behat/behat": "~3.0",
+      "behat/mink": "~1.6",
+      "behat/mink-extension": "~2.0",
+      "behat/mink-goutte-driver": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Werkspot\\LightningTalk\\AcceptanceTests\\": "src/"
+        }
+    }
+}
